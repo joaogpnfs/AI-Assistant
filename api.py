@@ -52,3 +52,9 @@ class AssistantFnc(llm.FunctionContext):
     logger.info("get date")
     return f"The current date is {datetime.datetime.now().strftime('%Y-%m-%d')}"
   
+  @llm.ai_callable(description="Get the current weather")
+  def get_weather(self):
+    logger.info("get weather")
+    return f"The current weather is {datetime.datetime.now().strftime('%Y-%m-%d')}"
+  
+  
