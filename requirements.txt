@@ -1,0 +1,7 @@
+python-dotenv==1.0.0
+livekit-api
+livekit-plugins-openai>=0.10.15
+openai>=1.50.0
+silero
+aiohttp>=3.9.0
+asyncio
